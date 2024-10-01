@@ -7,7 +7,7 @@ import Image from "next/image"
 import { useState } from "react"
 
 const Page = () => {
-  const title = "Quiz ERP - InnoTech"
+  const title = "Quiz - ERP"
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [answers, setAnswers] = useState<number[]>([])
   const [showResult, setShowResult] = useState(false)
@@ -34,7 +34,7 @@ const Page = () => {
   return (
     <>
       <div className="w-full min-h-screen flex justify-center items-center bg-black">
-        <div className="w-full max-w-xl rounded-md shadow-gray-400 bg-gray-200 text-black shadow-md">
+        <div className="w-full max-w-xl rounded-md shadow-gray-400 bg-gray-200 text-black shadow-md mt-8 mb-4">
           <div className="p-5 font-semibold text-2xl border-b border-gray-400 flex items-center">
             <Image
               src={"/images/only-logo.png"}
