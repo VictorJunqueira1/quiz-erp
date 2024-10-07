@@ -9,7 +9,7 @@ export const questions: Question[] = [
             'Alertar o usuário, mas permitir a movimentação',
             'Cancelar automaticamente a operação'
         ],
-        answer: 0
+        answer: 1
     },
     {
         question: "Qual das opções representa uma transação do tipo 'FI' no módulo de Receitas e Despesas?",
